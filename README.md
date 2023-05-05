@@ -1,6 +1,12 @@
-# Bank's Portal powered by Affinidi API
+# Online document verification app based on decentralized identity technology.
 
-This is a react application that is used by both the client and the verifier. It has a client/user portal which can be used by users to select the required function and submit the necessary documents. In our use case, the user selects 'Applying for loan' feature. The verifier portal is used by the verifier to set the documents criteria for the loan feature and also to verify the authenticity of the documents submitted by the user.
+This is a proof-of-concept application that implements document verification in online loan processing.
+
+
+- The application has a client/user portal which can be used by users to select the required function and submit the necessary documents. In our use case, the user selects 'Applying for loan' feature. The verifier portal is used by the verifier to set the documents criteria for the loan feature and also to verify the authenticity of the documents submitted by the user.
+
+- The app utilizes Affinidi APIs and relies on Element DID method specification which is an implementation of the Sidetree protocol that uses the Ethereum blockchain as the ledger.
+
 ## Installation
 
 ## Pre-requisite
@@ -45,7 +51,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### Prepare issuer portal
 1. Clone the repository
-`https://github.com/Anushka3174/Bank-as-Web-Portal-Verifier.git`
 3. Install the dependencies
 `npm install`
 4. Open up the repository in a code editor of your choice
